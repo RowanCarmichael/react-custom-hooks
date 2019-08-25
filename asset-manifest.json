@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-custom-hooks/static/css/main.9d4692f1.chunk.css",
+    "main.js": "/react-custom-hooks/static/js/main.5789b7ce.chunk.js",
+    "main.js.map": "/react-custom-hooks/static/js/main.5789b7ce.chunk.js.map",
+    "runtime~main.js": "/react-custom-hooks/static/js/runtime~main.a69e046a.js",
+    "runtime~main.js.map": "/react-custom-hooks/static/js/runtime~main.a69e046a.js.map",
+    "static/js/2.9289bfb4.chunk.js": "/react-custom-hooks/static/js/2.9289bfb4.chunk.js",
+    "static/js/2.9289bfb4.chunk.js.map": "/react-custom-hooks/static/js/2.9289bfb4.chunk.js.map",
+    "index.html": "/react-custom-hooks/index.html",
+    "precache-manifest.75680b71dbe941f5e61af9caee2fbed5.js": "/react-custom-hooks/precache-manifest.75680b71dbe941f5e61af9caee2fbed5.js",
+    "service-worker.js": "/react-custom-hooks/service-worker.js",
+    "static/css/main.9d4692f1.chunk.css.map": "/react-custom-hooks/static/css/main.9d4692f1.chunk.css.map",
+    "static/media/mouseIcon.svg": "/react-custom-hooks/static/media/mouseIcon.44a55371.svg",
+    "static/media/timeIcon.svg": "/react-custom-hooks/static/media/timeIcon.c81f4f85.svg",
+    "static/media/viewsIcon.svg": "/react-custom-hooks/static/media/viewsIcon.269c63a5.svg"
+  }
+}
