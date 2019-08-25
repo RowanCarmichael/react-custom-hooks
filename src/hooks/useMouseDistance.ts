@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import getMouseDistance from '../utils/getMouseDistance';
 
 const useMouseDistance = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -7,7 +8,9 @@ const useMouseDistance = () => {
   useEffect(() => {
     const mouseMoveHandler = (event: MouseEvent) => {
       if (position.x && position.y) {
-        setMouseDistance(mouseDistance + Math.round(Math.sqrt(Math.pow(position.y - event.clientY, 2) + Math.pow(position.x - event.clientX, 2))));
+        setMouseDistance(
+          mouseDistance + getMouseDistance(position.x, position.y, event.clientX, event.clientY)
+        );
       }
       setPosition({ x: event.clientX, y: event.clientY });
     }
